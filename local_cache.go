@@ -7,6 +7,7 @@ import (
 	"time"
 )
 
+// TODO:计算对象的大小，动态生成缓存的大小
 var (
 	ErrNotFound = errors.New("cache: 没找到对应的key")
 	// ErrKeyNotExists 无论是过期还是不存在，我们都默认当不存在返回，不需要解释
